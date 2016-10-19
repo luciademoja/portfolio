@@ -1,5 +1,10 @@
 .article
-  %h3 Look at my recent blog posts!
-  - blog.articles.each do |article|
-    %a{href: article.url}
-      %ol.inline-list= article.title
+  %h3 Look at my recent blog posts on Medium!
+  %br
+  %a{href: "https://medium.com/@luciademoja"} Lucia's Medium Blog
+  %br
+  %br
+  %img{src: 'https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-0/p320x320/14355641_10153998696340838_7191569066188600342_n.jpg?oh=0e4c053ac765c56657d491a9f672643c&oe=58A37392', height:800, width:800}
+  -# - blog.articles.each do |article|
+  -#   %a{href: article.url}
+  -#     %ol.inline-list= article.title
