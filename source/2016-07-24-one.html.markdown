@@ -1,9 +1,9 @@
 ---
-title: Cute Article
+title: The right place at the right moment
 date: 2016-07-24 22:02 UTC
 tags:
 ---
 
-#Cute Article
+#The right place at the right moment
 
-> This is my *super cute* first article written just for the purpose of showing something on the new page!
+> London is amazing. Really a place where you can be whoever you want to be.
