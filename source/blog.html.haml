@@ -1,14 +1,20 @@
-.article
-  %h3 Look at my recent blog posts on Medium!
-  %br
-  %a{href: "https://medium.com/@luciademoja"} Lucia's Medium Blog
-  %br
-  %br
-  %img{src: 'https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-0/p320x320/14355641_10153998696340838_7191569066188600342_n.jpg?oh=0e4c053ac765c56657d491a9f672643c&oe=58A37392', height:800, width:800}
-  %br
-  %br
-  %h3 Or read the same articles clicking on the titles down here
-  %br
-  - blog.articles.each do |article|
-    %a{href: article.url}
-      %ol.inline-list= article.title
+%div
+  %h3 Take a look at my recent instagram pictures :)
+  %ul#rudr_instafeed
+  = javascript_include_tag :instagram
+
+%div
+  .article
+    %h3 Look at my recent blog posts on Medium!
+    %br
+    %a{href: "https://medium.com/@luciademoja"} Lucia's Medium Blog
+    %br
+    %br
+    %img{src: 'https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-0/p320x320/14355641_10153998696340838_7191569066188600342_n.jpg?oh=0e4c053ac765c56657d491a9f672643c&oe=58A37392', height:800, width:800}
+    %br
+    %br
+    %h3 Or read the same articles clicking on the titles down here
+    %br
+    - blog.articles.each do |article|
+      %a{href: article.url}
+        %ol.inline-list= article.title

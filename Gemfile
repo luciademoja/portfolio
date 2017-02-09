@@ -13,8 +13,6 @@ gem 'haml'
 gem 'kramdown'
 
 group :development, :test  do
-  gem 'capybara'
-  gem 'capybara-webkit'
   gem 'pry'
   gem 'launchy'
   gem 'rspec'
